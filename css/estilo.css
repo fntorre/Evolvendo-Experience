@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+
+* {
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.4em;
+    line-height: 1;
+}
+
+.texto h2 {
+    color: #f8af3c;
+}
+
+.container {
+    color: white;
+    text-align: center;
+    padding: 35px 25px;
+}
+
+.ozone {
+    margin-top: 100px;
+    border-top: 1px solid #ffffff6e;
+}
+
+.ozone img {
+    width: 100px;
+}
+
+.contacto {
+    margin-top: 45px;
+}
+
+.logo img {
+    width: 110px;
+    margin-bottom: -20px;
+}
+
+@media only screen and (min-width: 768px) {
+    /* tablet */
+}
+
+@media only screen and (min-width: 1024px) {
+    /* desktop */
+
+    body.fondo {
+        background-size: cover;
+        background-position-x: 50%;
+        background-position-y: 20%;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+}
