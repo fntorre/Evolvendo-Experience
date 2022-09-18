@@ -36,6 +36,7 @@ h1 {
 
 .contacto {
     margin-top: 45px;
+    font-size: 0.9em;
 }
 
 .logo img {
@@ -55,6 +56,22 @@ h1 {
         background-position-x: 50%;
         background-position-y: 20%;
     }
+
+    .ozone {
+        margin-top: 40px;
+    }
+
+    .contacto {
+        background-color: #0000007a;
+        padding-bottom: 15px;
+        border-radius: 25px;
+    }
+    
+
+}
+
+@media only screen and (min-width: 1600px) {
+    /* desktop */
 
     h1 {
         font-size: 4em;
